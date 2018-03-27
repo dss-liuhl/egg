@@ -1,3 +1,5 @@
+//从请求中解析出相关属性 host,protocol,ips,ip,acceptJSON
+
 'use strict';
 
 const querystring = require('querystring');
