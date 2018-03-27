@@ -1,3 +1,7 @@
+//出口一个对象
+//可以获得或设置cookie，httpclient，curl，router，helper，logger，coreLogger，locals，state
+//在后台运行runInBackground
+//启动时进行上下文委托
 'use strict';
 
 const delegate = require('delegates');
@@ -213,6 +217,7 @@ const proto = module.exports = {
 
 /**
  * Context delegation.
+ * 上下文委托
  */
 
 delegate(proto, 'request')
